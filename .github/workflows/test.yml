@@ -27,8 +27,8 @@ jobs:
         yarn install
         yarn run build
 
-        -name: Upload
-        uses:actions/upload-artifact
-        with:
-          name: 3D-packages
-          path: packages/
+    - name: Upload
+      uses: actions/upload-artifact
+      with:
+        name: 3D-packages
+        path: packages/
