@@ -126,7 +126,7 @@ async function init(configuration = {}): Promise<boolean> {
       );
       config.rendering.useCPURendering = true;
     } else {
-      console.log('CornerstoneRender: using GPU rendering');
+      console.log('CornerstoneRender: currently using GPU rendering');
     }
   }
 
